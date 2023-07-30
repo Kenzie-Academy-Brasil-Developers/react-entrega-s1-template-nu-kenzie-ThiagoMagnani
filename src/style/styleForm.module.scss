@@ -1,0 +1,46 @@
+h4 {
+  padding: 0;
+  margin: 0;
+}
+
+.formValue {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  width: 40%;
+}
+
+.divValue {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.box {
+  border: none;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  padding: 13px 0;
+  width: 100%;
+}
+
+.ex {
+  color: #868e96;
+  font-size: 12px;
+}
+
+.buttonInsertValue {
+  border: none;
+  border-radius: 8px;
+  background-color: #fd377e;
+  color: white;
+  padding: 13px 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .formValue {
+    width: 100%;
+  }
+}

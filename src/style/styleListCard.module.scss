@@ -1,0 +1,17 @@
+.divCards {
+  width: 55%;
+}
+
+.listCard {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+@media screen and (max-width: 768px) {
+  .divCards {
+    width: 100%;
+    padding: 1.5em 0;
+  }
+}

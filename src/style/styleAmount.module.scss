@@ -1,0 +1,21 @@
+.amount {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.valueAmount {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rs {
+  color: #fd377e;
+}
+
+.textAmount {
+  color: #343a40;
+  font-size: 0.8em;
+}

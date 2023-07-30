@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.bodyContainner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.prinContainner {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .prinContainner {
+    flex-direction: column;
+  }
+}
