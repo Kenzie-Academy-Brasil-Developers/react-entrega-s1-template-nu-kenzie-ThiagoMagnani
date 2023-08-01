@@ -1,5 +1,5 @@
-import styleListCard from "../style/styleListCard.module.scss";
-import styleCard from "../style/styleCard.module.scss";
+import styleListCard from "../../style/listCard/Card/styleListCard.module.scss";
+import styleCard from "../../style/listCard/Card/styleCard.module.scss";
 
 export const CardList = ({ cards, handleDeleteCard }) => {
   return (

@@ -1,9 +1,10 @@
 .amount {
-  border: 2px solid rgba(0, 0, 0, 0.2);
+  border: 2px solid #e9ecef;
   padding: 1em;
   display: flex;
   flex-direction: column;
   gap: 1em;
+  margin-top: 1.2em;
 }
 
 .valueAmount {
@@ -16,6 +17,6 @@
 }
 
 .textAmount {
-  color: #343a40;
-  font-size: 0.8em;
+  color: rgb(107, 107, 107);
+  font-size: 0.9em;
 }

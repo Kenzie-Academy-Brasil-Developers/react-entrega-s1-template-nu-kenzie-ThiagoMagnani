@@ -6,16 +6,16 @@ h4 {
 .formValue {
   display: flex;
   flex-direction: column;
-  gap: 2em;
   width: 40%;
+  font-size: 0.8em;
 }
 
 .divValue {
-  border: 2px solid rgba(0, 0, 0, 0.2);
+  border: 2px solid #00000033;
   padding: 1.5em;
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 2em;
 }
 
 .box {
@@ -24,6 +24,12 @@ h4 {
   background-color: #f8f9fa;
   padding: 13px 0;
   width: 100%;
+}
+
+.divBoxItens{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
 }
 
 .ex {

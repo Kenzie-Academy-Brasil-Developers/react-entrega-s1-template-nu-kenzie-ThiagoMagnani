@@ -1,5 +1,5 @@
-import logo from "../assets/nukenzie.png";
-import styleHeader from "../style/styleHeader.module.scss";
+import logo from "../../assets/nukenzie.png";
+import styleHeader from "../../style/header/styleHeader.module.scss";
 
 export const Header = () => {
   return (

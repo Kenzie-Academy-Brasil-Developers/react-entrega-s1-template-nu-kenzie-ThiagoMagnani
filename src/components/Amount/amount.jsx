@@ -1,4 +1,4 @@
-import styleAmount from "../style/styleAmount.module.scss";
+import styleAmount from "../../style/amount/styleAmount.module.scss";
 
 export const Amount = ({ totalAmount }) => {
   return (

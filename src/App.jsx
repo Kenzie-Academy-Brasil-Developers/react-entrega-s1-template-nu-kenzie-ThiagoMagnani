@@ -1,9 +1,9 @@
 import style from "./style/style.module.scss";
-import styleForm from "./style/styleForm.module.scss";
-import { FormCards } from "./components/formCards";
-import { Amount } from "./components/amount";
-import { CardList } from "./components/cardList";
-import { Header } from "./components/header";
+import styleForm from "./style/form/styleForm.module.scss";
+import { FormCards } from "./components/formCards/formCards";
+import { Amount } from "./components/Amount/amount";
+import { CardList } from "./components/cardList/cardList";
+import { Header } from "./components/header/header";
 import { useEffect, useState } from "react";
 
 function App() {

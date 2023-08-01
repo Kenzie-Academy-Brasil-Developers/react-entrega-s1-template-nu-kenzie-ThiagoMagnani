@@ -1,4 +1,4 @@
-import styleForm from "../style/styleForm.module.scss";
+import styleForm from "../../style/form/styleForm.module.scss";
 import { useState } from "react";
 
 export const FormCards = ({ formData, setFormData, handleSubmit }) => {
@@ -14,7 +14,7 @@ export const FormCards = ({ formData, setFormData, handleSubmit }) => {
 
   return (
     <div className={styleForm.divValue}>
-      <div>
+      <div className={styleForm.divBoxItens}>
         <h4>Descrição</h4>
         <input
           type="text"
@@ -26,7 +26,7 @@ export const FormCards = ({ formData, setFormData, handleSubmit }) => {
         <span className={styleForm.ex}>Ex: Compra de roupas</span>
       </div>
 
-      <div>
+      <div  className={styleForm.divBoxItens}>
         <h4>Valor (R$)</h4>
         <input
           type="number"
@@ -43,7 +43,7 @@ export const FormCards = ({ formData, setFormData, handleSubmit }) => {
         />
       </div>
 
-      <div>
+      <div  className={styleForm.divBoxItens}>
         <h4>Tipo de valor</h4>
         <select
           name="typeValue"
